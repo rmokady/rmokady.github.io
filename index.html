@@ -49,7 +49,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/ron.jpg"><img style="width:70%;max-width:70%" alt="profile photo" src="images/ron.jpg" class="hoverZoomLink"></a>
+              <a href="images/ron2.jpg"><img style="width:70%;max-width:70%" alt="profile photo" src="images/ron2.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -68,6 +68,52 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+        <tr onmouseout="NTI_stop()" onmouseover="NTI_start()">
+
+
+            <td style="padding:0%;width:20%;vertical-align:top">
+
+
+              <div class="one">
+                <div class="two" id='NTI_image'>
+                  <img src='images/NTI.png' width="150"></div>
+                <img src='images/NTI.png' width="150">
+              </div>
+              <script type="text/javascript">
+                function NTI_start() {
+                  document.getElementById('NTI_image').style.opacity = "1";
+                }
+
+                function NTI_stop() {
+                  document.getElementById('NTI_image').style.opacity = "0";
+                }
+                NTI_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:60%;max-width:60%">
+
+
+              <a href="https://arxiv.org/abs/2211.09794">
+                <papertitle> NULL-text Inversion for Editing Real Images using Guided Diffusion Models </papertitle>
+              </a> <br>
+              <strong>Ron Mokady*</strong>,
+              <a href="https://amirhertz.github.io/">Amir Hertz*</a>,
+              <a href="https://kfiraberman.github.io/">Kfir Aberman</a>,
+              <a href="https://research.google/people/106214/">Yael Pritch</a>,
+              <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>,
+              <br>
+              (* denotes equal contribution)
+              <br>
+              <em>arXiv</em>, 2022.
+              <br>
+              <a href="https://null-text-inversion.github.io/">project page</a> /
+              <a href="https://arxiv.org/abs/2211.09794">arXiv</a>
+              <br><br><br><br>
+
+            </td>
+          </tr>
+
+
         <tr onmouseout="Prompt_stop()" onmouseover="Prompt_start()">
 
 
@@ -81,11 +127,11 @@
               </div>
               <script type="text/javascript">
                 function Prompt_start() {
-                  document.getElementById('SDIP_image').style.opacity = "1";
+                  document.getElementById('Prompt_image').style.opacity = "1";
                 }
 
                 function Prompt_stop() {
-                  document.getElementById('SDIP_image').style.opacity = "0";
+                  document.getElementById('Prompt_image').style.opacity = "0";
                 }
                 Prompt_stop()
               </script>
@@ -101,17 +147,60 @@
               <a href="https://www.linkedin.com/in/jay-tenenbaum/">Jay Tenenbaum</a>,
               <a href="https://kfiraberman.github.io/">Kfir Aberman</a>,
               <a href="https://research.google/people/106214/">Yael Pritch</a>,
-              <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>,
+              <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>
               <br>
               <em>arXiv</em>, 2022.
               <br>
+              <a href="https://prompt-to-prompt.github.io/">project page</a> /
+              <a href="https://github.com/google/prompt-to-prompt/">code</a> /
               <a href="https://arxiv.org/abs/2208.01626">arXiv</a>
               <br><br><br><br>
 
             </td>
           </tr>
 
-        <tr onmouseout="SDIP_stop()" onmouseover="SDIP_start()">
+
+        <tr onmouseout="CAPDEC_stop()" onmouseover="CAPDEC_start()">
+
+
+            <td style="padding:0%;width:20%;vertical-align:top">
+
+
+              <div class="one">
+                <div class="two" id='CAPDEC_image'>
+                  <img src='images/capdec.png.gif' width="150"></div>
+                <img src='images/capdec.png' width="150">
+              </div>
+              <script type="text/javascript">
+                function Prompt_start() {
+                  document.getElementById('CAPDEC_image').style.opacity = "1";
+                }
+
+                function CAPDEC_stop() {
+                  document.getElementById('CAPDEC_image').style.opacity = "0";
+                }
+                CAPDEC_stop()
+              </script>
+            </td>
+            <td style="padding:0;width:60%;max-width:60%">
+
+
+              <a href="https://arxiv.org/abs/2211.00575">
+                <papertitle> Text-Only Training for Image Captioning using Noise-Injected CLIP </papertitle>
+              </a> <br>
+              <a href=https://www.linkedin.com/in/david-nukrai-9623ba146/">David Nukrai</a>,
+              <strong>Ron Mokady</strong>,
+              <a href="https://cs3801.wixsite.com/amirgloberson">Amir Globerson</a>
+              <br>
+              <em>Findings of EMNLP</em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2211.00575">arXiv</a>
+              <br><br><br><br>
+
+            </td>
+          </tr>
+
+        <tr onmouseout="CAPDEC_stop()" onmouseover="CAPDEC_start()">
 
 
             <td style="padding:0%;width:20%;vertical-align:top">
@@ -194,7 +283,7 @@
               <a href="https://www.cs.tau.ac.il/~amberman/">Amit H. Bermano</a>,
               <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>
               <br>
-              <em>arXiv</em>, 2022.
+              <em>SIGGRAPH ASIA</em>, 2022.
               <br>
               <a href="https://stitch-time.github.io/">project page</a> /
               <a href="https://arxiv.org/abs/2201.08361">arXiv</a> /
